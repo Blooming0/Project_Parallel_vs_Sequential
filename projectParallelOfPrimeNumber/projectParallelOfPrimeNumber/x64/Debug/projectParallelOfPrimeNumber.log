@@ -1,0 +1,4 @@
+﻿  paralellPrimeNumbersSum.cpp
+C:\Users\User\Desktop\ProgrammingAdvidces\ParlellComputingLabs\projectParallelOfPrimeNumber\projectParallelOfPrimeNumber\paralellPrimeNumbersSum.cpp(39,21): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\User\Desktop\ProgrammingAdvidces\ParlellComputingLabs\projectParallelOfPrimeNumber\projectParallelOfPrimeNumber\paralellPrimeNumbersSum.cpp(53,55): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  projectParallelOfPrimeNumber.vcxproj -> C:\Users\User\Desktop\ProgrammingAdvidces\ParlellComputingLabs\projectParallelOfPrimeNumber\x64\Debug\projectParallelOfPrimeNumber.exe
