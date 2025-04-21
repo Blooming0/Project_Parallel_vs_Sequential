@@ -64,4 +64,4 @@ A performance comparison chart (image file included)
 
 **Hassan Youssef Al-Husseini**  
 Fifth-year Computer Engineering Student  
-This project was developed as part of the **Parallel Computing** course during the graduation year + This project is for academic purposes.
+This project was developed as part of the **Parallel Computing** course during the graduation year + This project is for academic purposes **(Monday, April 21, 2025)**.
