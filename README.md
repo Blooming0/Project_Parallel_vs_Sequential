@@ -24,26 +24,44 @@ To highlight the impact of parallel computing using **MPI (Message Passing Inter
 
 ```bash
 # Compile the MPI version
-mpic++ -o prime_mpi prime_mpi.cpp
+mpiexec -np n projectParallelOfPrimeNumber.exe
 
 # Compile the sequential version
-g++ -o prime_seq prime_seq.cpp
+g++ -o projectSequentialOfPrimeNumber.cpp
 ```
 
 ## ▶️ Execute
 # Run parallel version with n processes
-mpiexec -np n projectParallelOfPrimeNumber.exe
-- 📎 NOTE : i use it 20 proccessor whitch is the maxmum for me .
+- 📎 NOTE : i use it 20 proccessor whitch is the maxmum for me .  
+## 📊 parallel Code 
+![Code Of Parallel using MPI c++/c#](project_Imgs/Parallel_Code.png)
+# Prime numbers up to user-defined 100
+![Testing On 100 Numbers](project_Imgs/Parallel_Test_On_100_Number.png)
+# Prime numbers up to user-defined 5000
+![Testing On 5000 Numbers](project_Imgs/Paralell_Test_On_5000_Numbers.png)
+
+---
 
 # Run sequential version
-projectSequentialOfPrimeNumber.exe
-## 📊 Output
-# Prime numbers up to user-defined N
+## 📊 Sequential Code 
+![Code Of sequential using c++/c#](project_Imgs/Sequential_Code.png)
+# Prime numbers up to user-defined 100
+![Testing On 100 Numbers](project_Imgs/Sequential_Test_On_100_Number.png)
+# Prime numbers up to user-defined 5000
+![Testing On 5000 Numbers](project_Imgs/Sequential_Test_On_5000_Numbers.png)
 
-Execution time in seconds
+---
 
 A performance comparison chart (image file included)
-
+![MPI vs Sequential](project_Imgs/comparsion.png)
 📎 Note
-This project is for academic purposes.
 The performance chart is based on illustrative data and may vary depending on system hardware and MPI environment.
+
+
+---
+
+## 👨‍🎓 Author
+
+**Hassan Youssef Al-Husseini**  
+Fifth-year Computer Engineering Student  
+This project was developed as part of the **Parallel Computing** course during the graduation year + This project is for academic purposes.
