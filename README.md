@@ -32,8 +32,7 @@ g++ -o projectSequentialOfPrimeNumber.cpp
 
 ## ▶️ Execute
 # Run parallel version with n processes
-📎 **Note:**  
-This project was tested using **20 processes**, which is the maximum allowed on my current setup.
+📎 **Note:** This project was tested using **20 processes**, which is the maximum allowed on my current setup.
 ## 📊 parallel Code 
 ![Code Of Parallel using MPI c++/c#](project_Imgs/Parallel_Code.png)
 # Prime numbers up to user-defined 100
@@ -56,8 +55,7 @@ This project was tested using **20 processes**, which is the maximum allowed on 
 A performance comparison chart (image file included)
 ![MPI vs Sequential](project_Imgs/comparsion.png)
 
-📎 Note
-The performance chart is based on illustrative data and may vary depending on system hardware and MPI environment.
+📎 **Note**: The performance chart is based on illustrative data and may vary depending on system hardware and MPI environment.
 
 
 ---
